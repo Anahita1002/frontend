@@ -58,7 +58,7 @@ const Footer = () =>{
                 <img src="/bottom.png" className="hidden md:block"/>
                 <img src="/footer_icons.png" className="block md:hidden" />
             </div>
-            <div className="block md:hidden h-[80.5px]">
+            <div className="block md:hidden h-[80.5px] fixed bottom-0">
                 {/* Phone only */}
                 <div className="bg-black py-[16px] flex items-center justify-between px-[16px]">
                     <div>
