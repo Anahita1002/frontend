@@ -2,7 +2,7 @@
 const CheckAvailability = () => {
     return(
         <>
-        <div className="hidden md:block bg-[#333333] absolute top-[719px] left-[940px] rounded-[10px] p-6 border border-[#FFFFFF33]">
+        <div className="hidden xl:block bg-[#333333] absolute top-[4.5%] left-[80%] transform -translate-x-1/2 -translate-y-1/2 rounded-[10px] p-6 border border-[#FFFFFF33]">
             <div className="mb-4 flex items-center gap-2">
                 <div>
                     <span className="text-[14px] font-medium text-[#FFFFFF99] line-through">₹1,49,086</span>
@@ -45,7 +45,7 @@ const CheckAvailability = () => {
                 <button className="w-[352px] h-[48px]  rounded-[4px] bg-[#D2BA7F] text-[14px] font-semibold text-black">Check Availability</button>
             </div>
         </div>
-        <div className="block md:hidden h-[80.5px] w-full fixed bottom-0">
+        <div className="block xl:hidden h-[80.5px] w-full fixed bottom-0">
                 {/* Phone only */}
                 <div className="bg-black py-[16px] flex items-center justify-between px-[16px]">
                     <div>

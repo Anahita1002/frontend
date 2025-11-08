@@ -12,7 +12,7 @@ const Footer = () =>{
                 </div>
                 </div>
             </div>
-            <div className="md:h-[353px] pl-[20px] gap-y-[30px] bg-[#333333] flex flex-col md:flex-row items-start md:pl-[100px] py-[20px] md:gap-[102px]">
+            <div className="md:h-[353px] pl-[20px] gap-y-[30px] bg-[#333333] flex flex-col md:flex-row items-start xl:pl-[100px] py-[20px] md:gap-[102px]">
                 {/* Upper Grey portion */}
                 <ul className="space-y-[20px]">
                     <li className="text-[18px] text-[#FFFFFFCC] leading-[150%] font-semibold">Company</li>
