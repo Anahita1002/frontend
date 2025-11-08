@@ -42,7 +42,7 @@ const About = () => {
           <button className="hidden md:block w-[154px] h-[36px] md:w-auto md:h-auto rounded-[30px] border-[1px] border-[#FFFFFF66] items-center justify-center md:px-[30px] md:py-[19px] text-[10px] md:text-[14px] text-[#FFFFFF99] hover:border-[1.5px] hover:text-[#F2F2F2] hover:border-[#FBDE98]">
             Things to do
           </button>
-          <button className="md:hidden w-[154px] h-[36px] md:w-auto md:h-auto rounded-[30px] border-[1px] border-[#FFFFFF66] flex items-center justify-center md:px-[30px] md:py-[19px] text-[10px] md:text-[14px] text-[#FFFFFF99] hover:border-[1.5px] hover:text-[#F2F2F2] hover:border-[#FBDE98]">
+          <button className="block md:hidden w-[154px] h-[36px] md:w-auto md:h-[48px] rounded-[30px] border-[1px] border-[#FFFFFF66]  items-center justify-center md:px-[30px] md:py-[19px] text-[10px] md:text-[14px] text-[#FFFFFF99] hover:border-[1.5px] hover:text-[#F2F2F2] hover:border-[#FBDE98]">
             About the locality
           </button>
         </div>
@@ -93,8 +93,8 @@ const About = () => {
         </div>
 
         <div className="pl-[4px] mt-[15px] md:pl-0 md:mt-[30px]">
-          <button className="rounded-[30px] border-[1.5px] border-[#FFFFFF66] px-5 py-2 text-[10px] md:text-[14px] text-[#F2F2F2] hover:border-[#FBDE98]">
-            View All Amenities
+          <button className="w-[154px] h-[36px] md:w-auto md:h-auto rounded-[30px] border-[1px] border-[#FFFFFF66] flex items-center justify-center md:px-[30px] md:py-[19px] text-[10px] md:text-[14px] text-[#FFFFFF99] hover:border-[1.5px] hover:text-[#F2F2F2] hover:border-[#FBDE98]">
+           View All Amenities
           </button>
         </div>
       </div>
@@ -117,10 +117,10 @@ const About = () => {
           </p>
         </div>
         <div className="flex mt-[20px] gap-[20px]">
-          <button className="rounded-[30px] border-[1.5px] border-[#FFFFFF66] px-5 py-2 text-[10px] md:text-[14px] text-[#F2F2F2] hover:border-[#FBDE98]">
+          <button className="w-[154px] h-[36px] md:w-auto md:h-auto rounded-[30px] border-[1px] border-[#FFFFFF66] flex items-center justify-center md:px-[30px] md:py-[19px] text-[10px] md:text-[14px] text-[#FFFFFF99] hover:border-[1.5px] hover:text-[#F2F2F2] hover:border-[#FBDE98]">
             View Menu
           </button>
-          <button className="rounded-[30px] border-[1.5px] border-[#FFFFFF66] px-5 py-2 text-[10px] md:text-[14px] text-[#F2F2F2] hover:border-[#FBDE98]">
+          <button className="w-[154px] h-[36px] md:w-auto md:h-auto rounded-[30px] border-[1px] border-[#FFFFFF66] flex items-center justify-center md:px-[30px] md:py-[19px] text-[10px] md:text-[14px] text-[#FFFFFF99] hover:border-[1.5px] hover:text-[#F2F2F2] hover:border-[#FBDE98]">
             Meal Rate Card
           </button>
         </div>

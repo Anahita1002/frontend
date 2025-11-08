@@ -8,25 +8,26 @@ import RoomBed from "./components/RoomBed";
 import Footer from "./components/Footer";
 
 const App = () => {
-  return(
+  return (
     <>
-        
-    <SeaLaVie />
-    
-    <div className="bg-black w-full min-h-screen pb-[80.5px] md:pb-0 ">
-      <div className=" w-full">
-      <CheckAvailability /> 
-     <RatingsReviews />
-    <About />
-     <RealMoments /> 
-    <Location />
-    <RoomBed />
-     
-    </div>
-     <Footer /> 
-    </div>
+      <SeaLaVie />
+
+      <div className="bg-black w-full min-h-screen pb-[80.5px] md:pb-0 ">
+        <div className=" w-full">
+          <RatingsReviews />
+          <About />
+          <RealMoments />
+          <Location />
+          <RoomBed />
+        </div>
+
+        <div>
+          <CheckAvailability />
+        </div>
+        <Footer />
+      </div>
     </>
-)
-}
+  );
+};
 
 export default App;

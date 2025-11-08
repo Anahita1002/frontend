@@ -45,6 +45,24 @@ const CheckAvailability = () => {
                 <button className="w-[352px] h-[48px]  rounded-[4px] bg-[#D2BA7F] text-[14px] font-semibold text-black">Check Availability</button>
             </div>
         </div>
+        <div className="block md:hidden h-[80.5px] w-full fixed bottom-0">
+                {/* Phone only */}
+                <div className="bg-black py-[16px] flex items-center justify-between px-[16px]">
+                    <div>
+                        <div>
+                            <p className="text-[12px] font-medium text-[#999999] line-through">₹1,49,086</p>
+                        </div>
+                        <div className="flex">
+                            <p className="text-[16px] font-bold text-[#FFFFFF] leading-[150%]">₹1,00,086
+                                <span className="text-[12px] leading-[150%]">/night</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                    <button className="w-[185px] h-[48px]  rounded-[4px] bg-[#D2BA7F] text-[14px] font-semibold text-black">Check Availability</button>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
