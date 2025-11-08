@@ -9,7 +9,8 @@ const Location = () =>{
             <img src="/location.png" />
         </div>
         <div className="mt-[10px] md:mt-[30px]">
-            <button className="rounded-[30px] border-[1px] border-[#FFFFFF99] px-[30px] py-[10px] text-[10px] md:text-[14px] text-[#FFFFFF] hover:border-[#FBDE98] leading-[150%]">Get Direction</button>
+            <button className="w-[154px] h-[36px] md:w-auto md:h-auto rounded-[30px] border-[1px] border-[#FFFFFF66] flex items-center justify-center md:px-[30px] md:py-[19px] text-[10px] md:text-[14px] text-[#FFFFFF99] hover:border-[1.5px] hover:text-[#F2F2F2] hover:border-[#FBDE98]">
+              Get Direction</button>
         </div>
         </div>
         </>
