@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 const SeaLaVie = () => {
     return (
         <>
-            <div className=" w-full ">
+            <div className="w-full relative">
                 <div className="w-full md:hidden h-[24px] bg-black flex items-center justify-end gap-[9px] pr-[9px]">
                     {/* mobile notification */}
                     <img src="/wifi.png"/>
@@ -12,7 +12,9 @@ const SeaLaVie = () => {
                     <p className="text-[#DDDDDD]">12:30</p>
                 </div>
                 <Navbar />
-                <img src="./SeaLaVie.png" className="h-[324px] w-full md:h-[762px] object-cover" />
+                <div className="">
+                    <img src="./SeaLaVie.png" className="w-full h-[324px] md:h-[762px] object-cover" />
+                </div>
                 {/* left side */}
                 <div className=" absolute top-[225px] md:top-[322px] left-[26px] md:left-[131px]">
                     <h1 className="text-[24px] md:text-[60px] text-[#FFFFFF] leading-[130%]">Sea La Vie</h1>

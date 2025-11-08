@@ -7,8 +7,8 @@ const Footer = () =>{
                 <div className="bg-[#333333] pt-[24px] flex items-center gap-2">
                     <img src="/logoOnly.png" className="pl-[20px]" />
                 <div>
-                    <p className="text-[17px]">SaffronStays</p>
-                    <p className="text-[10px]">where families bond</p>
+                    <p className="text-[17px] text-[#FFFFFF]">SaffronStays</p>
+                    <p className="text-[10px] text-[#FFFFFF]">where families bond</p>
                 </div>
                 </div>
             </div>
@@ -22,7 +22,7 @@ const Footer = () =>{
                     <li className="text-[14px] text-[#FFFFFF99] leading-[150%] font-medium">About</li>
                 </ul>
 
-                <ul className="space-y-[20px]">
+                <ul className="space-y-[20px] md:ml-[25px]">
                     <li className="text-[18px] text-[#FFFFFFCC] leading-[150%] font-semibold">Company</li>
                     <li className="text-[14px] text-[#FFFFFF99] leading-[150%] font-medium">Saffronstays</li>
                     <li className="text-[14px] text-[#FFFFFF99] leading-[150%] font-medium">Signature</li>
@@ -30,7 +30,7 @@ const Footer = () =>{
                     <li className="text-[14px] text-[#FFFFFF99] leading-[150%] font-medium">About</li>
                 </ul>
 
-                <ul className="space-y-[20px]">
+                <ul className="space-y-[20px] md:ml-[25px]">
                     <li className="text-[18px] text-[#FFFFFFCC] leading-[150%] font-semibold">Contact</li>
                     <li className="text-[14px] text-[#FFFFFF99] leading-[150%] font-medium underline">mail@saffronstays.com</li>
                     <li className="text-[14px] text-[#FFFFFF99] leading-[150%] font-medium">+91 3728253727</li>
@@ -43,7 +43,7 @@ const Footer = () =>{
                     <li className="text-[14px] text-[#FFFFFF99] leading-[150%] font-medium">List a home</li>
                 </ul>
 
-                <ul className="space-y-[20px]">
+                <ul className="space-y-[20px] md:ml-[25px]">
                     <li className="text-[18px] text-[#FFFFFFCC] leading-[150%] font-semibold">Policies</li>
                     <li className="text-[14px] text-[#FFFFFF99] leading-[150%] font-medium">Privacy Policy</li>
                     <li className="text-[14px] text-[#FFFFFF99] leading-[150%] font-medium">Terms</li>
