@@ -1,7 +1,7 @@
 const RealMoments = () =>{
     return(
         <>
-        <div className="bg-black pl-[16px] md:pl-[100px] mt-[40px]">
+        <div className="bg-black px-[16px] md:pl-[100px] mt-[40px]">
             <p className="text-[#F2F2F2] leading-[150%] text-[24px]">Real Moments</p>
         </div>
 

@@ -13,8 +13,8 @@ const App = () => {
         
     <SeaLaVie />
     
-    <div className="bg-black w-full min-h-screen text-white ">
-      <div className="container mx-auto w-full">
+    <div className="bg-black w-full min-h-screen pb-[80.5px] md:pb-0 ">
+      <div className=" w-full">
       <CheckAvailability /> 
      <RatingsReviews />
     <About />
